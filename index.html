@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ajay Adit Jagan | Robotics Engineer</title>
-    <meta name="description" content="Ajay Adit Jagan — Robotics Engineer, MS Robotics at Northeastern University. Portfolio update in progress.">
+    <meta name="description" content="Ajay Adit Jagan — Robotics Engineer, MS Robotics at Worcester Polytechnic Institute (WPI). Portfolio update in progress.">
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
     <style>
         :root {
@@ -56,6 +56,12 @@
             background: var(--accent-green);
             border-radius: 50%;
             flex-shrink: 0;
+            animation: blink 1.4s ease-in-out infinite;
+        }
+
+        @keyframes blink {
+            0%, 100% { opacity: 1; box-shadow: 0 0 0 0 rgba(0, 255, 136, 0.5); }
+            50% { opacity: 0.25; box-shadow: 0 0 0 8px rgba(0, 255, 136, 0); }
         }
 
         h1 {
@@ -139,8 +145,8 @@
 
         <h1>Ajay Adit Jagan</h1>
         <p class="role">
-            Robotics Engineer · MS Robotics, <strong>Northeastern University</strong><br>
-            Robotics perception, motion planning, and safe control.
+            Robotics Engineer · MS Robotics, <strong>Worcester Polytechnic Institute (WPI)</strong><br>
+            Perception and navigation.
         </p>
 
         <div class="notice">
@@ -152,8 +158,8 @@
         </div>
 
         <div class="links">
-            <a href="mailto:jagan.a@northeastern.edu" class="btn btn-primary">jagan.a@northeastern.edu</a>
-            <a href="https://github.com/AjayAdit" class="btn" target="_blank" rel="noopener">GitHub</a>
+            <a href="mailto:ajagan@wpi.edu" class="btn btn-primary">ajagan@wpi.edu</a>
+            <a href="https://www.linkedin.com/in/ajay-adit-j/" class="btn" target="_blank" rel="noopener">LinkedIn</a>
         </div>
     </main>
 </body>
